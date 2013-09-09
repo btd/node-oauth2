@@ -1,0 +1,31 @@
+{
+  "name": "node-oauth2",
+  "version": "0.0.1",
+  "description": "Example server that implements oauth2 authorization code grant (http://tools.ietf.org/html/rfc6749#section-4.1)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "keywords": [
+    "api",
+    "oauth2"
+  ],
+  "author": "Denis Bardadym",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "jshint": "*",
+    "nodemon": "*",
+    "supertest": "*",
+    "cookie-jar": "*",
+    "jsdom": "*",
+    "istanbul": "*"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "express-namespace": "latest"
+  }
+}
